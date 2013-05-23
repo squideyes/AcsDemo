@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcsDemo.Website", "Source\AcsDemo.Website\AcsDemo.Website.csproj", "{F39E9F3A-ED55-4B05-A68E-EE7449C9973B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcsDemo.Client", "Source\AcsDemo.Client\AcsDemo.Client.csproj", "{9CCBB82C-1FF2-453E-B77D-40AF2616C96F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcsDemo.Shared", "Source\AcsDemo.Shared\AcsDemo.Shared.csproj", "{9DE2BBE5-1511-4AEC-A623-80ADC281B015}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{5AB930D0-AF84-4D54-ABB1-E45B53F65B4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Settings", "Settings", "{2D889872-69CD-4E36-AA49-ACFA6E2740B8}"
+	ProjectSection(SolutionItems) = preProject
+		Settings\Settings.xml = Settings\Settings.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo", "Demo", "{9792E407-048D-41EE-9957-5C7E4CA2026B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ACS", "ACS", "{6ACDC273-6189-47AB-8997-F82FD983EA67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunToSetupACS", "Source\RunToSetupACS\RunToSetupACS.csproj", "{A6724A10-F15D-4A6B-BA94-2C1AC13E93DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "README", "README", "{277D45EC-8DCF-45BF-8F46-AAC229489274}"
+	ProjectSection(SolutionItems) = preProject
+		README.doc = README.doc
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F39E9F3A-ED55-4B05-A68E-EE7449C9973B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F39E9F3A-ED55-4B05-A68E-EE7449C9973B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F39E9F3A-ED55-4B05-A68E-EE7449C9973B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F39E9F3A-ED55-4B05-A68E-EE7449C9973B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CCBB82C-1FF2-453E-B77D-40AF2616C96F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CCBB82C-1FF2-453E-B77D-40AF2616C96F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CCBB82C-1FF2-453E-B77D-40AF2616C96F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CCBB82C-1FF2-453E-B77D-40AF2616C96F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DE2BBE5-1511-4AEC-A623-80ADC281B015}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DE2BBE5-1511-4AEC-A623-80ADC281B015}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DE2BBE5-1511-4AEC-A623-80ADC281B015}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DE2BBE5-1511-4AEC-A623-80ADC281B015}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6724A10-F15D-4A6B-BA94-2C1AC13E93DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6724A10-F15D-4A6B-BA94-2C1AC13E93DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6724A10-F15D-4A6B-BA94-2C1AC13E93DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6724A10-F15D-4A6B-BA94-2C1AC13E93DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9792E407-048D-41EE-9957-5C7E4CA2026B} = {5AB930D0-AF84-4D54-ABB1-E45B53F65B4A}
+		{6ACDC273-6189-47AB-8997-F82FD983EA67} = {5AB930D0-AF84-4D54-ABB1-E45B53F65B4A}
+		{9DE2BBE5-1511-4AEC-A623-80ADC281B015} = {9792E407-048D-41EE-9957-5C7E4CA2026B}
+		{F39E9F3A-ED55-4B05-A68E-EE7449C9973B} = {9792E407-048D-41EE-9957-5C7E4CA2026B}
+		{9CCBB82C-1FF2-453E-B77D-40AF2616C96F} = {9792E407-048D-41EE-9957-5C7E4CA2026B}
+		{A6724A10-F15D-4A6B-BA94-2C1AC13E93DC} = {6ACDC273-6189-47AB-8997-F82FD983EA67}
+	EndGlobalSection
+EndGlobal

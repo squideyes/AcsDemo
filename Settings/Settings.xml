@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+  <!-- The "scheme://host-name:[port]/" To Be Secured -->
+  <authority>http://localhost:8888/</authority>
+
+  <!-- Your ACS Namespace -->
+  <acsNamespace>blograte</acsNamespace>
+
+  <!-- ACS Name Prefix (Relying Party, Rule Group, etc.)-->
+  <namePrefix>AcsDemo</namePrefix>
+
+  <!-- Key Lifetime (In Months) -->
+  <keyLifetime>12</keyLifetime>
+  
+  <!-- Token Lifetime (In Seconds) -->
+  <tokenLifetime>600</tokenLifetime>
+
+  <!-- The Service Identity Password -->
+  <servicePassword>Bu2a$*Tr6!eThe4u</servicePassword>
+
+  <!-- The Token Signing Password-->
+  <signingPassword>2bbF75KdFgnr88;P</signingPassword>
+</settings>
