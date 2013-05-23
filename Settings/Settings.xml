@@ -1,10 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <settings>
-  <!-- The "scheme://host-name:[port]/" To Be Secured -->
-  <authority>http://localhost:8888/</authority>
+  <!-- If you change nothing else in this file, you need -->
+  <!-- to change the ACS Namespace!!! -->
 
   <!-- Your ACS Namespace -->
   <acsNamespace>blograte</acsNamespace>
+
+  <!-- The "scheme://host-name:[port]/" To Be Secured -->
+  <authority>http://localhost:8888/</authority>
 
   <!-- ACS Name Prefix (Relying Party, Rule Group, etc.)-->
   <namePrefix>AcsDemo</namePrefix>
